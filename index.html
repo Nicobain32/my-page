@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Niko's PC</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #1b1a1a;
+      color: #000000;
+    }
+
+    header {
+      background-color: #1e1e2f;
+      color: rgb(139, 76, 76);
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #2c2c3c;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 40px;
+      background-color: #e8e8e8;
+      flex-wrap: wrap;
+    }
+
+    .hero img {
+      width: 400px;
+      max-width: 100%;
+      border-radius: 12px;
+    }
+
+    .hero-text {
+      max-width: 500px;
+    }
+
+    .hero-text h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background-color: #0570e1;
+      color: rgb(0, 0, 0);
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #260d80;
+    }
+
+    .services {
+      padding: 40px;
+      background-color: oklch(87.302% 0.0001 271.152);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .service {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    footer {
+      background-color: rgb(23, 7, 66);
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Niko's PC</h1>
+    <p>Tu tienda confiable de reparación de computadoras</p>
+  </header>
+
+    <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#sobre">Sobre Nosotros</a>
+
+  </nav>
+
+   <section class="hero">
+    <div class="hero-text">
+      <h1>¡Reparaciones rápidas y confiables!</h1>
+      <p>Desde fallas técnicas hasta mantenimiento completo, cuidamos tu equipo como si fuera nuestro.</p>
+      <button class="btn" onclick="window.open('https://wa.me/5491165545931?text=Hola%2C+quiero+solicitar+una+reparación', '_blank')">
+Solicitar reparación
+    </div>
+    <img src="pc.jpg" alt="Imagen de reparación de PC">
+
+<section id="sobre" style="padding: 40px; background-color: #e5e5e5;">
+  <h2 style="color: #007bff; font-size: 2rem; margin-bottom: 20px;">Sobre Nosotros</h2>
+  <p style="color: #000000; font-size: 1.1rem; max-width: 800px; margin-bottom: 20px;">
+    En <strong>Niko's PC</strong> Contamos con años de experiencia en el mantenimiento y instalacion de sistemas en pc de escritorio
+    Nuestro objetivo es brindar un servicio rápido, confiable y con garantía, tanto para clientes individuales como para empresas.
+  </p>
+  <p style="color: #000000; font-size: 1.1rem; max-width: 800px;">
+    Nos apasiona la tecnología y trabajamos con compromiso para resolver cualquier problema que afecte el rendimiento de tu equipo. 
+    ¡Tu computadora en las mejores manos!
+  </p>
+</section>
+
+
+
+
+
+  <section class="services" id="servicios">
+    <div class="service">
+      <h3>Mantenimiento General</h3>
+      <p>Limpieza física, actualización de software y optimización del sistema.</p>
+    </div>
+    <div class="service">
+      <h3>Reparación de Hardware</h3>
+      <p>Cambio de disco, memoria RAM, motherboards y más.</p>
+    </div>
+    <div class="service">
+      <h3>Instalación de Sistemas SO</h3>
+      <p>Formateo e instalación de Windows, Linux, drivers y programas esenciales.</p>
+    </div>
+  
+</body>
+</html>
+</section>
+</section>
+  <footer id="contacto">Tiziano Nicolás
+    <p>Contacto: contacto@reparatupcconnico.com | WhatsApp: +54 9 11 6554-5931</p>Zona Norte
+    <p>&copy; 2025 Niko's PC. Todos los derechos reservados.</p>
+  </footer>
